@@ -6,4 +6,5 @@ def my_each(array)
     yield array[i]
       new_array << i = i + 1
   end
+  return new_array
 end
